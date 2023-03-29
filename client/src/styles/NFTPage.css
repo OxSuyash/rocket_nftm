@@ -1,0 +1,45 @@
+
+
+.NFTPage-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-top: 80px;
+    background-color: black;
+    height: 100vh;
+}
+
+.NFTPage-main-container {
+    background-color: black;
+    padding-top: 100px;
+}
+
+.NFTPage-main-container h1{
+    color: white;
+    text-align: center;
+}
+
+.NFTPage-container img{
+    height: 50vh;
+    width: 50vw;
+}
+
+.details-container{
+    margin-left: 70px;
+}
+
+.details-container .nft-details{
+    margin-top: 30px;
+}
+
+.nft-details button{
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(5, 240, 1);
+    justify-content: center;
+}
+
+.nft-details p{
+    color: white;
+}

@@ -1,0 +1,38 @@
+.nav-container{
+    min-height: 7vh;
+    background-color: rgb(8, 43, 2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+.brand p{
+    /* color: rgb(100, 24, 24); */
+    font-size: 30px;
+    font-family: 'Roboto Serif', serif;
+    
+}
+
+.brand{
+    padding-left: 40px;
+    /* background-color: white; */
+    padding-right: 20px;
+}
+
+.nav-item p{
+    font-size: 20px;
+}
+
+.menus button{
+    padding: 8px;
+    color: black;
+    cursor: pointer;
+}

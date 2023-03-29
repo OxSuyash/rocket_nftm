@@ -1,0 +1,96 @@
+.fileUpload-container{
+    background-color: black;
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+}
+
+.form{
+    background-color: white;
+    width: 40vw;
+    margin-top: 50px;
+    /* margin-left: 200px; */
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid greenyellow;
+    background-color: black;
+}
+
+.form-item label{
+    color: white;
+}
+
+.fileUpload-container-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+}
+
+.fileUpload-container-image img{
+    height: 60vh;
+    padding-top: 200px;
+    transition: all 2s ease-in-out;
+
+    animation: shake 0.08s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(5px, 5px) rotate(0deg); }
+  }
+
+  .fileUpload-container-image img:hover{
+    transform: translateY(-900px);
+
+  }
+
+  .form .form-item{
+    margin-top: 55px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .form-item input {
+    width: 25vw;
+    height: 25px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+.form h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Serif', serif;
+}
+
+#form-item1{
+    padding-top: 25px;
+}
+
+.form-item button{
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.form-item button:hover{
+    border: 2px solid greenyellow;
+    background-color: black;
+    color: greenyellow;
+}
+
+.btn p{
+  color: white;
+}

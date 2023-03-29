@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.profile-container{
+    /* padding-left: 50px; */
+    width: 100vw;
+    padding-top: 90px;
+    background-color: black;
+    height: 120vh;
+}
+
+.profile-container-title h1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Serif', serif;
+}
+
+.profile-tile{
+    display: grid;
+    grid-template-columns: 4vw 4vw 4vw;
+    padding-left: 100px;
+    padding-top: 50px;
+    row-gap: 25px;
+    column-gap: 400px;
+    
+}

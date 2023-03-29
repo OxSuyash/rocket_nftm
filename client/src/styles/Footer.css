@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
+.footer-container{
+    background-color: rgb(8, 43, 2);
+    min-height: 35vh;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 40vw 20vw;
+    justify-content: center;
+}
+
+.about-project{
+    margin-right: 70px;
+    /* background-color: white; */
+}
+
+.about-project p{
+    font-family: 'Roboto Serif', serif;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+.about-dev{
+    margin-left: 70px;
+    /* background-color: white; */
+
+}
+.buttons{
+    padding-top: 10px;
+}
+
+.buttons button{
+    margin: 8px;
+    padding: 4px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+}
+
+.copyright p{
+    text-align: center;
+    background-color: rgb(8, 43, 2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
